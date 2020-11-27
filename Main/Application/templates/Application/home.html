@@ -25,7 +25,7 @@
                     <img class="search__camera--item" src="{% static 'images/camera.png' %}" alt="">
                     <h5 class="search__camera--text">upload image</h5>
                     <img class="search__camera--button" src="{% static 'images/arrow.png' %}">
-                    <button class="search__btn"><img class="search__btn-img" src="{% static 'images/arrow.png' %}" alt=""></button>
+                    <button id="Search_Button" class="search__btn"type="submit" name="submit" value="search"><img class="search__btn-img" src="{% static 'images/arrow.png' %}" alt=""></button>
                 </div>
             </div>
             <ul class="search__languages">
@@ -41,7 +41,7 @@
                 <li class="search__languages--item"><button class="search__languages--item-btn">Punjabi</button></li>
                 <li class="search__languages--item"><button class="search__languages--item-btn">Odia</button></li>
             </ul>
-            <button id="Search_Button" class="search__btn" type="submit" name="submit" value="search">Search Doubt</button>
+            <!-- <button class="search__btn" type="submit" name="submit" value="search">Search Doubt</button> -->
         </form>
         <script type="text/javascript">
             $("#pass").keyup(function(event) { 
